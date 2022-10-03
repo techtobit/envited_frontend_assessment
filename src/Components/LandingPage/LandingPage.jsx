@@ -18,7 +18,7 @@ const LandingPage = () => {
         <div className="sub_title text-secondary py-2">
           <p className='text-secondary font-normal'>Easily host and share events with your friends across any social media.</p>
         </div>
-        <div className="hero-btn hidden md:hidden lg:inline-flex">
+        <div className="hero-btn hidden md:hidden lg:inline-flex text-center">
           <Link to='/bookEvent' className=' event-btn rounded-lg lg:w-[320px] lg:h-[55px] p-4 text-white font-medium' >
             🎉 Create my event
           </Link>
@@ -29,8 +29,8 @@ const LandingPage = () => {
         <div className="blob">
           <img className='hero-img' src={heroBlob} alt="" />
         </div>
-        <div className="hero-btn lg:hidden inline-flex">
-          <Link to='/bookEvent' className=' event-btn rounded-lg lg:w-[320px] lg:h-[55px] p-4 text-white font-medium' >
+        <div className="hero-btn gird lg:hidden inline-flex text-center">
+          <Link to='/bookEvent' className='text-center event-btn rounded-lg lg:w-[320px] lg:h-[55px] p-4 text-white font-medium' >
             🎉 Create my event
           </Link>
         </div>
