@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import heroBlob from '../../assets/image 1.svg'
 import './LandingPage.css'
 
@@ -18,9 +19,9 @@ const LandingPage = () => {
           <p className='text-secondary font-normal'>Easily host and share events with your friends across any social media.</p>
         </div>
         <div className="hero-btn hidden md:hidden lg:inline-flex">
-          <button className=' event-btn rounded-lg lg:w-[320px] lg:h-[55px] p-4 text-white font-medium' >
+          <Link to='/bookEvent' className=' event-btn rounded-lg lg:w-[320px] lg:h-[55px] p-4 text-white font-medium' >
             🎉 Create my event
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -29,9 +30,9 @@ const LandingPage = () => {
           <img className='hero-img' src={heroBlob} alt="" />
         </div>
         <div className="hero-btn lg:hidden inline-flex">
-          <button className=' event-btn rounded-lg lg:w-[320px] lg:h-[55px] p-4 text-white font-medium' >
+          <Link to='/bookEvent' className=' event-btn rounded-lg lg:w-[320px] lg:h-[55px] p-4 text-white font-medium' >
             🎉 Create my event
-          </button>
+          </Link>
         </div>
       </div>
     </div>

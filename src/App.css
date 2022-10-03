@@ -9,3 +9,8 @@ body {
   background-color: #DDDDDD;
   ;
 }
+
+.event-btn {
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+
+}

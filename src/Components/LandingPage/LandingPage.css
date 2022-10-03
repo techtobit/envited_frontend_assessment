@@ -1,34 +1,24 @@
-@media (min-width: 576px) {}
-
-
-@media only screen and (min-width: 600px) {
- .hero-title {
-  width: 50%;
- }
-
- .title {
-  font-size: 64px;
-  line-height: 64px;
+@media (min-width: 576px) {
+ .landingPage {
+  display: flex;
+  flex-direction: column;
  }
 }
 
 /* medium devices  */
 @media (min-width: 768px) {
 
- .title {
-  /* font-weight: 700px; */
-  font-size: 64px;
-  line-height: 64px;
- }
-
-
+  .title {
+   /* font-weight: 700px; */
+   font-size: 64px;
+   line-height: 64px;
+  }
  /* hero blob */
  .hero-img {
   width: 311px;
   height: 548px;
  }
 }
-
 
 
 /* desktop responsive  */
